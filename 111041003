@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+	int n;
+	int i;
+	int a, b,c;
+	
+	cout << "輸入期中考成績,期末考成績,平時總成績:" << endl;
+
+	n = 0;
+
+	i = n + 1;
+	while (i > n)
+	{
+		cin >> a >> b >> c;
+cout<<”學期成績"<<endl;
+		cout << (a * 0.2 + b * 0.3 + c * 0.5) << endl;
+
+		i = i + 1;
+	}
+	return 0;
+}
